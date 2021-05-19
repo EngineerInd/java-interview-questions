@@ -1,0 +1,11 @@
+public int someMethod(int i){
+   try{
+       //some statement
+       return 1;
+   }catch(Exception e){
+       //some statement
+       return 999;
+   }finally{
+       //finally block statements
+   }
+}
